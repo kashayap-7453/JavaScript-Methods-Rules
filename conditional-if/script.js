@@ -9,13 +9,13 @@
 // }
 
 
-// Rule :- If else statement se Logical and ki madad se do value ko check karna
+// Rule :- If else statement se Logical and(&&) ki madad se do value ko check karna
 
 // let age = 18;
 // let hasVoterCar = "yes";
 
 // if(age >= 18 && hasVoterCar == 'yes'){
-//     console.log('you can vote.');
+//     console.log('you can vote.');  
 // }else{
 //     console.log("you cannot vote.");
 // }
