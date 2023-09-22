@@ -2,6 +2,7 @@
 // alert("this is a message");
 
 // Prompt mein default ya blank ka use karna chahiye 
+// data ko collect karne ka kaam karta hai
 // like - "Guest"
 
 // let name = prompt("What is your name ?", "Guest");

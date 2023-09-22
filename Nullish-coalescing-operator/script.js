@@ -1,7 +1,7 @@
 // Rule - ismein if and else ka method kaam karta hai yadi 
 //        1st value undefined ya fir null hai tab Nullish coalescing operator '??' ke baad vali value ko dikhayega 
 
-// let users={
+// let users = {
 //     student:{
 //         name: '',
 //         age: 0 

@@ -17,7 +17,7 @@ while(counter <= 10){
 /*
 let counter = 1;
 
-while(counter >= 1){
+while(counter >= 10){
     document.write('TechGun');
     // counter = counter + 2;
     counter--;
