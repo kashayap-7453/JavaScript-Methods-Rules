@@ -2,7 +2,7 @@ class RailwayForm {
     constructor(givenname, trainno, address){
         console.log("CONSTURCTOR CALLED..." + givenname + " " + trainno)
         this.name = givenname
-        this.trainno = this.trainno
+        this.trainno = trainno
         this.address = address
     }
 
