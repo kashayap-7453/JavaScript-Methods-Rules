@@ -22,7 +22,7 @@ class RailwayForm {
 
 let harryForm = new RailwayForm("Harry", 13488, "420, Pacific OffscreenCanvas, Bihar - 0000555")
 
-harryForm.preview()
+/* harryForm.preview()
 harryForm.submit()
 harryForm.cancel()
-harryForm.preview()
+harryForm.preview() */

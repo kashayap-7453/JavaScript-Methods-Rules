@@ -1,5 +1,5 @@
 /*  Symbol ke Description ko check karne ke leiye 
-.description method ka use karte hai */
+(.description) method ka use karte hai */
 
 
 // let id = Symbol("Hello");
@@ -24,8 +24,8 @@ prapt kar saktein hai
 Object mein symbol ka use
 ============================ */
 /* 
-Object ke andar symbol ka use karne ke liye pale symbole ko define
-karte phir object ke andar variable ko ko square bracket ke andar
+Object ke andar symbol ka use karne ke liye pahle symbole ko define
+karte phir object ke andar variable ko square bracket ke andar
 likhte hai .
  */
 

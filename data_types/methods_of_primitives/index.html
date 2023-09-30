@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods of Primitives</title>
+    <style> 
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+       .parent-box{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: relative;
+            border: none;
+            outline: none;
+       }
+       .child-box{
+            width: 10px;
+            height: 150px;
+            background-color: black;
+       }
+       .bottom{
+            width: 100px;
+            height: 10px;
+            background-color: black;
+            bottom: 0;
+       }
+       .circle-image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            font-size: 20px;
+            animation: rotate 1.2s linear infinite;
+            position: relative;
+       }
+
+       @keyframes rotate{
+         from{
+            transform: rotate(-300deg);
+         }
+         to{
+            transform: rotate(300deg);
+         }
+       }
+    </style>
+</head>
+<body>
+
+
+    <div class="parent-box">
+        <img class="circle-image" src="./roatate.avif">
+    </div>
+    <div class="child-box"></div>
+    <div class="bottom"></div>
+
+    <!-- 
+        Javascript section
+     -->
+     <script src="script.js"></script>
+</body>
+</html>

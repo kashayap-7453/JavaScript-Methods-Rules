@@ -1,5 +1,5 @@
 /* 
-Symbols :- symbols ek primitive hai bilkul "Boolean", "undfined" abd
+Symbols :- symbols ek primitive hai bilkul "Boolean", "undfined" 
 "NaN",ki tarah hotein hai
 ****five primitive hotein sixth object aur 7va symbol
  */
