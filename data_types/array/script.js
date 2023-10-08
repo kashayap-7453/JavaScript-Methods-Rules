@@ -26,7 +26,7 @@ console.log("The length of marks_class_12", marks_class_12.length); */
    class 2       Dated Staurday-28-september-2023
 =========== */
 
-// Rule:-  .toString() mehtod string ko array mein change karta hai
+// Rule:-  .toString() mehtod array ko string mein change karta hai
 
 /* let num = [1, 2, 3, 34 , 4]
 let b = num.toString()   // b is now a string
@@ -86,7 +86,7 @@ console.log(typeof b); */
 //   console.log(num.length)
 
 /* 
-Rule:- .concat() method do ya do se jyada array ko meger karne 
+Rule:- .concat() method do ya do se jyada array ko mege karne 
                 ke use aata hai. aur ek naye array ko create 
                 karta hai
  */
@@ -190,7 +190,7 @@ Rule :- slice method mein index number 3 diay hai aur 5 .
 
 
 // Rule :- classical "for loop" all language mein samaan hot hai.
-        //  ye zeor se start karega aur total length se ek kam jayega .
+        //  ye zero se start karega aur total length se ek kam jayega .
 
 // let num  = [3, 54, 1, 2, 4]
 
@@ -255,17 +255,138 @@ Rule :- slice method mein index number 3 diay hai aur 5 .
 /* 
 .map() method ek new array banata hai aur usko return karta hai.
 .map() method mein teen argument ko pass kar saktein hai.
+       (value, index, array)
 
 forEach ek loop hai jo baar chalta hai aur har arrya element 
         ke liye kuch karta hai.
+.forEach:- mein teen argument ko pass kar saktein hai.
+       (value, index, array)
  */
 
 
 // let arr = [45, 23, 21]
 // // console.log(arr)
-// let a = arr.map((value, ) => {
-//         console.log(value)
-//         return value + 1
+// let a = arr.map((value, index, array) => {
+//         console.log(value, index, array)
+//         // return value + 1
+//         return value + index
 // })
 
 // console.log(a);
+
+
+/*Rule :- .filter() ka use tab karte hai jab 10 se chhote sankhaya
+          chahiye leking 10 ke sthaan par koi bi sankhya ho sakti hai  */
+
+// let arr = [45, 23, 21, 0, 3, 5]
+// let a2 = arr.filter((a) => {
+//         return a < 10
+// })
+// console.log(a2);
+
+
+/*Rule :- .reduce() method mein alag se ek function banaya.
+           aur usko pass kiy ".reduce()" mein 
+           
+Explain rule:- ismein pahle 1 and 2 ko include kiy fir jo value 
+               aayi usmein 3 ko include kiya fir jo value ayi usemin 
+               5 ko include kiya*/
+
+// let arr = [1, 2, 3, 5, 2, 1]
+ 
+// const reduce_func = (h1, h2) => {
+//         return h1 + h2 
+// }
+
+// let newarr3 = arr.reduce(reduce_func)
+// console.log(newarr3)
+
+
+/* Or .reduce() method ka use aise bhi kar saktein 
+lekin aise ye jyada difficult ho jata hai.*/
+
+// let arr = [1, 2, 3, 5, 2, 1]
+// let newarr3 = arr.reduce((h1, h2) => {
+//         return h1 + h2
+// })
+
+// console.log(newarr3);
+
+
+
+
+
+/*==========
+   class 6 (Prctise set)  Dated Staurday-30-september-2023
+=========== */
+
+/*Question 1 :- Ek array of numbers banao aur user se input lo
+                aur jo input user de raha hai usko array mein 
+                add kar do .
+  */
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// let a = prompt("Enter a number");
+
+// a = Number.parseInt(a);
+// arr.push(a);
+// console.log(arr);
+
+
+
+/*Question 2 :- Number ko add karte jou jab tak ko umein 0 Zero ko
+                add nahi kiya jata hai.
+Rule:-          do while loop se
+  */
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let a;
+// do{
+//         a = prompt("Enter a number")
+//         a = Number.parseInt(a)
+//         arr.push(a)
+// }while (a != 0);
+// console.log(arr)
+
+
+
+/* 
+Question 3: - Filter for number divisible by to from a 
+              given array
+ */
+
+// let arr = [1, 2, 30, 4, 50, 6, 7, 83, 670]
+// let n = arr.filter((x) => {
+//         return x%10 == 0
+// });
+// console.log(n);
+
+
+
+/* 
+Question 4: - Create an array of square of given numbers
+note:- map aary return karta hai isliye .map ka use hoga
+ */
+
+// let arr = [1, 2, 30, 4, 50, 6, 7, 83, 670]
+// let n = arr.map((x) => {
+//         return x*x
+// });
+// console.log(n);
+
+
+
+/* 
+Question 5: - Ek array diya hai first and natural number ka 
+              aur aapko reduce function ka use karke .
+              factorial ko clalculate karna hai.
+ */
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8]
+let n = arr.reduce((x1, x2) => {
+        return x1 * x2
+});
+console.log(n);
+z
+

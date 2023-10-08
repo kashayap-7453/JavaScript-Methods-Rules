@@ -13,9 +13,9 @@ console.log(otherNumber.toPrecision(4));
 
 /* 
 Zeros  ko gina tough hota hai isliye "US" and "INDIA" mein zero 
-ko count karna
+ko count karne ki short tricks
  */
 
 const hundreds = 100000;
-console.log(hundreds.toLocaleString());
-console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString());         //America ke anusar
+console.log(hundreds.toLocaleString('en-IN'));  // India math ke anusar

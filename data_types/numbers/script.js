@@ -28,7 +28,7 @@ document.write(num + 10);  //result 109 */
 
 /*===========================
    2. parseInt() Function 
- ========================== 
+  ========================== 
  parseInt():- ke use se "decimal" value return nahi karega
            aur yadi kisi value mein space hai to space ke 
            pahle vali value ko return karega */
@@ -117,7 +117,7 @@ document.write(num);
  ========================== 
 
  toPrecision() :- iseke use se ham jitne bhi value denge ye decimal
-                  se pahle ki value and baad wali vali dono value ka
+                  se pahle ki value aur baad wali vali dono value ka
                   total karke dega.
   */
 

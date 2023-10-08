@@ -1,6 +1,6 @@
 /* String ko do tarah se declare karte hai.
     1. const name = "hitesh";
-    2. aise object ko declare kartein hai */
+    2. aise object ko declare kartein hai (given below) */
 
 
 const gameName = new String("Hitesh-hc");
@@ -17,7 +17,7 @@ console.log(gameName.__proto__);
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
 
-// Rule:- charAt() method se check kartein ki kis index par kon sa 
+// Rule:- charAt() method se check kartein hai ki kis index par kon sa 
     //   character hai 
 
 console.log(gameName.charAt(2));
