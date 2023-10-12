@@ -14,8 +14,8 @@
 
 
 /*  ------------ Chaining----------
- chaning ke anusar ek baar mein do se teen method ka use 
- ek saath kar saktein hai. */
+ chaning ke anusar ek baar mein do se teen ya fir 
+ usse jyada method ka use ek saath kar saktein hai. */
 
  /* .map mein num ko pass kiya fir num ko 10 se multiply kiya 
   to ye complete aaray ban gaya hai jisme 10 se multiply kiya 
@@ -29,4 +29,4 @@ const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
                     .map( (num) => num * 10)
                     .map( (num) => num + 1)
  
-// console.log(newNums); 
+// console.log(newNums);

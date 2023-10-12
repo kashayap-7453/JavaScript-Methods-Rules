@@ -37,7 +37,7 @@ console.log('After removal', mySet.has('that2'))
 
 // ==================== Iterating a Set ======================
 
-// for of loop ki madad se set ko iterate karna.
+// for of loop ki madad se "set" ko iterate karna.
 
 for(let item of mySet) {
     console.log("Item is :", item);

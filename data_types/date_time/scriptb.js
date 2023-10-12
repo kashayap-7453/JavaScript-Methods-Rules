@@ -62,5 +62,3 @@ ko compare karenge */
 
 // aise access kar saktein hai self practice
 // `${newDate.getDaty()} and the time is`
-
-

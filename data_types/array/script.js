@@ -86,7 +86,7 @@ console.log(typeof b); */
 //   console.log(num.length)
 
 /* 
-Rule:- .concat() method do ya do se jyada array ko mege karne 
+Rule:- .concat() method do ya do se jyada array ko merge karne 
                 ke use aata hai. aur ek naye array ko create 
                 karta hai
  */
@@ -107,7 +107,7 @@ Rule:- .concat() method do ya do se jyada array ko mege karne
 
 // let newArray = num.concat(num_more, num_even_more)
 
-/* Rule :-  sort() method ye original array ko modify karta .
+/* Rule next:-  .sort() method ye original array ko modify karta .
             ye method "Alphabetically" sort karta hai
 */
 
@@ -238,8 +238,8 @@ Rule :- slice method mein index number 3 diay hai aur 5 .
 
 
 
-/*  Rule :- array.from() : yadi hamarein pass html collection hai to main usmein 
-            for in loop nahi chala sakta tab usmein array.from 
+/*  Rule :- array.from() : yadi hamarein pass html collection hai to umein condition mein
+            for in loop nahi chala sakte tab usmein array.from 
             chalana padega.*/
 
 // let name = "Ram kumar"
@@ -259,7 +259,7 @@ Rule :- slice method mein index number 3 diay hai aur 5 .
 
 forEach ek loop hai jo baar chalta hai aur har arrya element 
         ke liye kuch karta hai.
-.forEach:- mein teen argument ko pass kar saktein hai.
+.forEach:- mein bhi teen argument ko pass kar saktein hai.
        (value, index, array)
  */
 

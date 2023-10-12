@@ -3,14 +3,14 @@
 // Array :- array mein kitni bhi duplicate value ka use karte hai
 
 /* Set :- 1. Set collection of unique value ka hota 
-             if ismein duplicate value ko put karte hai to
+             yadi ismein duplicate value ko put karte hai to
              duplicate value automatic remove ho jati hai. 
              
            2. Set mein element ko add karna remove karna,
             size check karna ye sab kaam kar saktein hai.
 
            3. Set ke andar koi bhi unique value ko rakh saktein
-              ho ex. string , number, boolean etc.*/
+              ho Example_. string , number, boolean etc.*/
 
 
               
@@ -26,7 +26,7 @@
 // complete data remove karna
 // data.clear();
 
-// data remove karna 
+// data delete karna 
 // data.delete("hi")
 
 //ismein loop bhi chala saktein hai
