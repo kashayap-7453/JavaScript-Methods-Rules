@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #313131;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 10px 35px;
+            margin: 0px 20px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: #313131;
+        }
+        button:nth-child(1){
+            background-color: orange;
+        }
+        button:nth-child(1).active{
+            background-color: blue;
+        }
+        button:nth-child(2){
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+    <!-- javascript section -->
+    <!-- <script src="script.js"></script> -->
+    <script src="scriptb.js"></script>
+</body>
+</html>

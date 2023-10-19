@@ -1,11 +1,12 @@
-// Rest parameter exaplain (thapa technical)
+// Rest parameter explain (thapa technical)
 
  /* 
- Arguements:- jab function ko call karte hai aur usmein jo value pass karte hai usko function arguement boltein hai
+ Arguements:- jab function ko call karte hai aur usmein jo 
+              value pass karte hai usko function arguement boltein hai
  example ->        sum(1, 2, 3, 4, 5, 6)
                         (parameter)
 
- function define: function ko define aise kiya jata hia.
+ function define karna-
  example:-  function sum(a,b){
                 console.log(a+b);
             }
@@ -27,7 +28,11 @@
 /* 
 //  es6 :- mein function ke all arguements ka total nikana
 
-Rest parameter ek JavaScript feature hai jiska istemal functions mein multiple arguments ko ek array mein collect karne ke liye kiya jata hai. Rest parameter ka syntax ...restParamName hota hai. Isse aap functions ko flexible bana sakte hain aur dynamic tarike se arguments ko manage kar sakte hain.
+Rest parameter ek JavaScript feature hai jiska istemal 
+functions mein multiple arguments ko ek array mein 
+collect karne ke liye kiya jata hai. Rest parameter ka 
+syntax ...restParamName hota hai. Isse aap functions ko 
+flexible bana sakte hain aur dynamic tarike se arguments ko manage kar sakte hain.
  */
 
 function sum(...inputs){

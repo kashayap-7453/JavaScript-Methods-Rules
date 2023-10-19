@@ -388,5 +388,3 @@ let n = arr.reduce((x1, x2) => {
         return x1 * x2
 });
 console.log(n);
-z
-

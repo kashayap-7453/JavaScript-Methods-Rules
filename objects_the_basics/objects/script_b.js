@@ -5,7 +5,7 @@ madd se declare karna
 2. Object. create
 */
 
-/* Obect ko do tarah declare kar saktein hai
+/* Obect ko do tarah se declare kar saktein hai
 
 1. singleton se 
 ex. const tinderUser = new object()
@@ -22,7 +22,7 @@ tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
-// object ke andar object ko declare karna  
+// object ke andar object(Nested object) ko declare karna  
 
 const regularUser = {
     email: "some@gmail.com",
@@ -39,11 +39,11 @@ const regularUser = {
 
 // console.log(regularUser.fullname);
 
-// object ki nesting ko open karne ke liye ek aur dot laga saktein hai
+// object ki nesting ko open karne ke liye ek aur dot lagate hain.
 
 // console.log(regularUser.fullname.userfullname);
 
-// dot ka use ham apne anusar kitni bhi baar kar saktein hai
+// dot(.) ka use ham apne anusar kitni bhi baar kar saktein hai
 
 
 

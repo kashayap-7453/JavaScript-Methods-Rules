@@ -1,7 +1,7 @@
 // <---------------->object literals<---------------->
 
 // symbol ko pale define kiya jata hai fir baad
-// mein object mein squre bracket mein use hoga
+// mein object mein squre bracket mein use hoga(variable as a syntax likha jayega)
 // Rule  - syntax ko likhne ka tareeka ex. [mySym]
 
 const mySym = Symbol("key1")
@@ -31,7 +31,7 @@ value ko koi change nahi kar sakein
 JsUser.email = "hitesh@chatgpt.com"
 //value ko add karne ke liye pahle freeze ko 
 // comment karna hai
-// Object.freeze(JsUser)
+// Object.freeze(JsUser)       // Freeze object
 console.log(JsUser);
 // JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
@@ -51,7 +51,7 @@ console.log(JsUser.greeting());
 
 
 /*
-  object ke andar name ko refernce karne ke this property ka use
+  object ke andar name ko reference karne ke this property ka use
   karenge kyoki this ke baad dot (.) ka use karte hi object ke 
   sabhi name aa jayenge
 */

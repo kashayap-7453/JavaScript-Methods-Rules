@@ -21,7 +21,8 @@ Recursion:- Condition ke hisaab se function ko recursively call karna but waha p
 // demo();
 
 /*Return (return;) blank hai to ye function ko call karega .
- */
+Note : value ke true hone par ismein ye one ko return kar dega 
+*/
 let counter = 1;
 function demo(number) {
   if (counter > number) {
