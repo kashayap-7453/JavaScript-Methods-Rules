@@ -5,7 +5,10 @@ const balance = new Number(100);
 console.log(balance);
 
 console.log(balance.toString().length);
-console.log(balance.toFixed(1));
+
+//to fixed ke andar ek property deni hoti hai jo hai number
+//Ecomerse mein point ke baad keval do values aati hai
+console.log(balance.toFixed(2));
 
 const otherNumber = 23.8966;
 

@@ -1,3 +1,8 @@
+/* Question:- JavaScript master kaise kare?
+   Answer :-  javascript master karne ke liye do(two) topic mein master karni hogi .
+   1.objects mein
+   2.browser ke web events ya browser events mein mastry karni hai */
+
 /*  Data Types ke do bhaag hote hai.
     1. Primitive
     2. Reference

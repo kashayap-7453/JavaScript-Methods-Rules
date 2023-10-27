@@ -75,3 +75,55 @@ const max = 20;
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
+// =============================================
+
+
+// Math Object In JavaScript ************
+
+/* math ke sabhi formulas ko console par dekhne  ke liye 
+   Example */
+
+   let m = Math;
+   console.log(m);
+   
+   //Printing the constants from Math Object
+   
+   // console.log("The value of Math.E is", Math.E)
+   // console.log("The value of Math.PI is", Math.E)
+   // console.log("The value of Math.LN2 is", Math.E)
+   // console.log("The value of Math.SQRT1_2 is", Math.E)
+   // console.log("The value of Math.LOG2E is", Math.E)
+   
+   
+   // Math.pow() method ka use power nikalne ke liye hota hai 
+   // ==========
+   
+   console.log("3 ki power 2", Math.pow(3, 2));
+   console.log("2 ki power 10", Math.pow(2, 10));
+   
+   
+   // Math.sqrt() method ka use squre root nikalne ke liye kiya jata hai 
+   // ==========
+   
+   console.log("Square root of 36 is ", Math.sqrt(36))
+   console.log("Square root of 64 is ", Math.sqrt(64))
+   console.log("Square root of 50 is ", Math.sqrt(50))
+   
+   //ceil and floor
+   console.log("5.8 rounded up to nearest integer is ", Math.ceil(5.8))
+   console.log("5.8 rounded down to nearest integer is ", Math.floor(5.8))
+   
+   
+   //Abs function :- Negative value ko positive banata hai
+   console.log("Absolute value of 5.66 is ", Math.abs(5.66))
+   console.log("Absolute value of 5.66 is ", Math.abs(-5.66))
+   
+   
+   // Generating a random number
+   let r = Math.random();
+   console.log("The random number is ", r)
+   //Random number b/w (a, b) = a (b-a)*Math.random()
+   let a1 = 1;
+   let b1 = 100;
+   let r1_100 = a1 + (b1-a1)*Math.random();
+   console.log("The random number is ", r1_100)

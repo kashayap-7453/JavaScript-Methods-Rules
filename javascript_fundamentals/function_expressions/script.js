@@ -1,8 +1,7 @@
 // Immediately Invoked Function Expressions (IIFE)
 
-// IIFE :- global scope ke pollution se problem hoti hai kai baar 
-//         global scope ke variables ya jo bhi declaration ke pollution 
-//         ko hatane ke liye use kiya.
+/* IIFE :- global scope ke pollution se problem hoti hai kai baar 
+           global scope ke variables ya jo bhi declaration ke pollution  ko hatane ke liye use kiya. */
 
 //Example
 /*

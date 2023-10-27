@@ -11,6 +11,8 @@
 // let score = null;
 
 
+
+// code ka type do tarah se check karte hai
 // console.log(typeof score);
 // console.log(typeof(score));
 

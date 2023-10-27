@@ -1,4 +1,4 @@
-//---------------- Destructuring ob javascript ------------------
+//---------------- Destructuring Object in javascript ------------------
 
 //Destructuring mein value ko baar baar print karna
 
@@ -24,7 +24,7 @@ console.log(instructor);
 
 
 // ---------------- React use -----------------
-//react mein destructuring ke liye company ko cury brshes mein rakha hai
+//react mein destructuring ke liye company ko curly brshes mein rakha hai
 
 /* const navbar = ({company}) => {
 

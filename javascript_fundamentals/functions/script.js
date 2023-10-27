@@ -27,7 +27,7 @@ console.log("One plus Average of a and b is ", onePlusAvg(a, c));
 */
 
 // Arrow function ke use khud se function ko create karna
-// *** js mein khud se function ko create karna chahiye.
+// *** javaScript mein khud se function ko create karna chahiye.
 // -----------------------------
 
 //Example

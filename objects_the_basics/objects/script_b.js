@@ -47,7 +47,7 @@ const regularUser = {
 
 
 
-// arry ki tarah object ko combine karna and 
+// arry ki tarah object ko combine karna /
             // merge karna //
 
 const obj1 = {1: "a", 2: "b"}

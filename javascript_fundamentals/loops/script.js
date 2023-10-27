@@ -19,7 +19,7 @@ let counter = 1;
 
 while(counter >= 10){
     document.write('TechGun');
-    // counter = counter + 2;
+    // counter += 2;
     counter--;
 }
 */
