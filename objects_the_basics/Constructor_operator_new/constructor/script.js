@@ -41,7 +41,7 @@ var student2 = {
 // }
 
 
-/* jab constructor mein koi property ya fir method ko add karte hai
+/* jab constructor mein koi property ya fir method ko add kate hai
 to vo sabhi mein add hoga
  */
 
